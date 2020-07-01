@@ -19,10 +19,10 @@ Thanks to one smart person, I found the third option - we will not show this reg
 * analyze a dump
 
 This is how the registers definition problem looks.
-![https://github.com/GShabanov/WindbgReg/blob/master/images/pic1.jpg](https://github.com/GShabanov/WindbgReg/blob/master/images/pic1.jpg)
+![https://github.com/GShabanov/WindbgReg/blob/master/pic1.jpg](https://github.com/GShabanov/WindbgReg/blob/master/pic1.jpg)
 
 This is how the problem looks after adjusting the register value.
-![https://github.com/GShabanov/WindbgReg/blob/master/images/pic2.jpg](https://github.com/GShabanov/WindbgReg/blob/master/images/pic2.jpg)
+![https://github.com/GShabanov/WindbgReg/blob/master/pic2.jpg](https://github.com/GShabanov/WindbgReg/blob/master/pic2.jpg)
 
 
 Compared to the original code, I refused to use a boost, as well as someone third-party library.
@@ -32,6 +32,6 @@ COM hooks are really easy. Therefore, the usual WinAPI is enough.
    **1.0.0** _first public working code_
 
 
-##References
+## References
 1. [Original problem discussion](https://stackoverflow.com/questions/35961246/windbg-not-showing-register-values)
 2. [Original code](https://github.com/mbikovitsky/WingDbg)
